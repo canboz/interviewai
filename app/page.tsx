@@ -4,6 +4,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-zinc-900 dark:text-white">
         Welcome to <span className="text-blue-600">Next.js</span>!
       </h1>
+      <h3>Get started by editing </h3>
     </div>
   );
 }
