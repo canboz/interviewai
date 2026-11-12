@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '@heroui/react';
 import { Icon } from '@iconify/react';
 import Link from 'next/link';
+import LandingPageStats from '@/components/layout/landing-page-stats/LandingPageStats';
 
 const HomePage = () => {
   return (
@@ -52,6 +53,7 @@ const HomePage = () => {
           </Button>
         </a>
       </div>
+      <LandingPageStats />
     </section>
   );
 };
