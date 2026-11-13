@@ -7,7 +7,7 @@ export default async function Footer() {
 
   return (
     <footer className="bg-muted mt-20 md:py-8 lg:py-10">
-      <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
+      <div className="container mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 md:flex-row">
         <Link href="#" className="flex items-center gap-2">
           <Logo />
           <span className="text-lg font-semibold">{siteConfig?.name}</span>
