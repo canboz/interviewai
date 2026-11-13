@@ -4,6 +4,7 @@ import { Icon } from '@iconify/react';
 import Link from 'next/link';
 import LandingPageStats from '@/components/layout/landing-page-stats/LandingPageStats';
 import Testimonials from '@/components/layout/testimonials/Testimonials';
+import Pricing from '@/components/layout/pricing/Pricing';
 
 const HomePage = () => {
   return (
@@ -56,6 +57,7 @@ const HomePage = () => {
       </div>
       <LandingPageStats />
       <Testimonials />
+      <Pricing />
     </section>
   );
 };
