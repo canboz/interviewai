@@ -3,6 +3,7 @@ import { Button } from '@heroui/react';
 import { Icon } from '@iconify/react';
 import Link from 'next/link';
 import LandingPageStats from '@/components/layout/landing-page-stats/LandingPageStats';
+import Testimonials from '@/components/layout/testimonials/Testimonials';
 
 const HomePage = () => {
   return (
@@ -54,6 +55,7 @@ const HomePage = () => {
         </a>
       </div>
       <LandingPageStats />
+      <Testimonials />
     </section>
   );
 };
