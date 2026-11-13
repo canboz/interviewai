@@ -5,6 +5,7 @@ import Link from 'next/link';
 import LandingPageStats from '@/components/layout/landing-page-stats/LandingPageStats';
 import Testimonials from '@/components/layout/testimonials/Testimonials';
 import Pricing from '@/components/layout/pricing/Pricing';
+import InterviewProcessCards from '@/components/layout/interview-process/InterviewProcessCards';
 
 const HomePage = () => {
   return (
@@ -58,6 +59,7 @@ const HomePage = () => {
       <LandingPageStats />
       <Testimonials />
       <Pricing />
+      <InterviewProcessCards />
     </section>
   );
 };
